@@ -59,7 +59,7 @@ Python version: 3.6.5
     >>> import tensorflow as tf
     >>> tf.Session() 
     ```
-    GPU info will display in python repl.
+    GPU info will be displayed in python repl.
     
 # For Pytorch 0.4.1
 1. Install CUDA >= 9.2, cudNN >= 7.1, NCCL >= 2.2.13, bazel(latest), Xcode == 9.2
@@ -84,7 +84,7 @@ Python version: 3.6.5
 7. When finished, get out of pytorch folder and run
    ```
    python
-   >>> import tensorflow as tf
-   >>> tf.Session() 
+   >>> import torch
+   >>> torch.cuda.is_available()
    ```
-   GPU info will display in python repl.
+   True will be displayed in python repl.
